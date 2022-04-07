@@ -1,4 +1,4 @@
-.root{
+:root{
     --header-color:#E5E5E5;
     --h-color:#212121;
     --text-color: #757575;
@@ -7,8 +7,8 @@
 }
 
 
-.body{
-    font-family: Roboto, sans-serif;
+body{
+    font-family:"Roboto", sans-serif;
 }
 
 .link{
