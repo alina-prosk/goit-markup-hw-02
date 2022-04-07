@@ -36,7 +36,7 @@ body{
 /*----------------------HEADER-------------------*/
 
 .header-logo{
-    font-family: 'Raleway';
+    font-family: "Raleway" sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -45,7 +45,7 @@ body{
     color: #000000;
 }
 .logo-accent{
-    font-family: 'Raleway';
+    font-family: "Raleway" sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -178,7 +178,7 @@ color: var(--text-color);
 }
 
 .footer-logo {
-    font-family: 'Raleway' sans-serif;
+    font-family: "Raleway" sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -188,7 +188,7 @@ color: var(--text-color);
 }
 
 .footer-logo-accent {
-    font-family: 'Raleway' sans-serif;
+    font-family: "Raleway" sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
