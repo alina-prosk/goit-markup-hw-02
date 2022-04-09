@@ -9,6 +9,9 @@
 
 body{
     font-family:"Roboto", sans-serif;
+    font-weight: 400;
+    background-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 
@@ -21,6 +24,7 @@ body{
     list-style: none;
 }
 
+
 .visuallyhidden {
     border: 0;
     clip: rect(0 0 0 0);
@@ -32,10 +36,9 @@ body{
     width: 1px;
 }
 
-
 /*----------------------HEADER-------------------*/
 
-.header-logo{
+.navigation-logo{
     font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -44,6 +47,8 @@ body{
     letter-spacing: 0.03em;
     color: #000000;
 }
+
+
 .logo-accent{
     font-family: "Raleway", sans-serif;
     font-style: normal;
@@ -54,16 +59,34 @@ body{
     color: #2196F3;
 }
 
-.header-link{
+.navigation-link{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--h-color);
 }
 
-.header-link:hover{
+
+.nav{
+    color: var(--text-color);
+}
+
+
+.navigation-link:hover{
     color: #2196F3;
+}
+
+.navigation-link:focus {
+    color:var(--buttin-color)
+}
+
+.navigation-link.current{
+    color: #2196F3;
+}
+
+.header{
+    background-color: #FFFFFF;
 }
 
 .head{
@@ -77,7 +100,7 @@ body{
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--header-color);
 }
 
 
@@ -92,8 +115,8 @@ body{
     color: #FFFFFF;
 }
 
-.header-btn:hover{
-    color: #188CE8;
+.header-btn:hover:focus{
+    background-color: #188CE8;
 }
 
 /*----------------------ABOUT-------------------*/
@@ -131,6 +154,10 @@ color: var(--text-color);
     background-color: var(--second-title-color)
 }
 
+.team-photo{
+    background-color: #FFFFFF;
+}
+
 
 .team-head{
     font-weight: 700;
@@ -149,6 +176,8 @@ color: var(--text-color);
     letter-spacing: 0.03em;
     color: var(--h-color);
 }
+
+
 .team-position{
     font-weight: 400;
     font-size: 16px;
@@ -180,7 +209,7 @@ color: var(--text-color);
     font-size: 14px;
     line-height: 1.72;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color:rgba(255, 255, 255, 0.6);
 }
 
 .footer-logo {
@@ -213,8 +242,13 @@ color: var(--text-color);
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
-    background-color: #F5F4FA;
+    color:var(--h-color);
+    background-color:var(--second-title-color);
+}
+
+.current-btn{
+    background-color: #2196F3;
+    color: #FFFFFF;
 }
 
 
@@ -222,9 +256,14 @@ color: var(--text-color);
     color: #2196F3;
 }
 
-
+.pointer {
+    cursor: pointer;
+}
 /*------------------------PROGECTS-----------------------*/
 
+.progect{
+    background-color: var(--header-color);
+}
 
 .progect-name {
     font-weight: 700;
