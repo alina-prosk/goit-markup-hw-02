@@ -212,6 +212,16 @@ color: var(--text-color);
     color:rgba(255, 255, 255, 0.6);
 }
 
+.footer-link:hover{
+    color: #2196F3;
+}
+
+
+.footer-link:focus{
+    color: #2196F3;
+}
+
+
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-style: normal;
@@ -254,6 +264,11 @@ color: var(--text-color);
 
 .filter-btn:hover{
     color: #2196F3;
+}
+
+.filter-btn:focus{
+    background-color: #2196F3;
+    color: #FFFFFF;
 }
 
 .pointer {
